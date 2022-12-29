@@ -17,4 +17,5 @@ In my website I used this technologies:
 - Media queries
 
 This is how my site looks like: 
+
 ![Sample](images/pagePhoto.jpg)
