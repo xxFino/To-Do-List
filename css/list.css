@@ -7,7 +7,7 @@
 .list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    gap: 10px; 
+    gap: 10px;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid grey;
@@ -17,17 +17,16 @@
     text-decoration: line-through;
 }
 
-.list__buttonDone {    
+.list__buttonDone {
     padding: 10px;
     background-color: green;
-    border: none;
-    color: white;    
-}
-
-.list__buttonRemove {
-    padding: 10px; 
-    background-color: red;
     border: none;
     color: white;
 }
 
+.list__buttonRemove {
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+}

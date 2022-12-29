@@ -1,7 +1,7 @@
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
-    gap: 20px;    
+    gap: 20px;
 }
 
 .form__input {
@@ -11,6 +11,6 @@
 .form__button {
     background-color: teal;
     border: none;
-    color: white;   
+    color: white;
     padding: 5px;
 }
