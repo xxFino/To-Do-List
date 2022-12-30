@@ -1,7 +1,5 @@
 {
-    const tasks = [
-
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -41,15 +39,15 @@
 
     const render = () => {
         let htmlString = "";
-
+        
         for (const task of tasks) {
             htmlString += `    
-                <li
-                    class="list__item${task.done ? " list__item--done" : ""}"                    
+                <li 
+                    class = "list__item"                    
                 >                    
-                    <button class="list__buttonDone js-done">Zrobione</button>
-                    ${task.content}
-                    <button class="list__buttonRemove js-remove">Usuń</button>                                   
+                    <button class="list__button list__button--done js-done">${task.done ? "✔" : ""}</button>                                      
+                    <span class="list__content${task.done ? " list__content--done" : ""}"> ${task.content}</span>
+                    <button class="list__button list__button--remove js-remove">🗑️</button>                                    
                 </li>             
             `;
         };
@@ -67,7 +65,7 @@
 
         if (newTaskContent !== "") {
             addNewTask(newTaskContent);
-            newTaskElement.value = ""            
+            newTaskElement.value = ""
         };
 
         newTaskElement.focus();
