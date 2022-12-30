@@ -13,20 +13,22 @@
     border-bottom: 1px solid grey;
 }
 
-.list__item--done {
+.list__content--done {
     text-decoration: line-through;
 }
 
-.list__buttonDone {
-    padding: 10px;
-    background-color: green;
+.list__button {
+    padding: 0px;
     border: none;
     color: white;
+    width: 30px;
+    height: 30px;
 }
 
-.list__buttonRemove {
-    padding: 10px;
+.list__button--done {
+    background-color: green;
+}
+
+.list__button--remove {
     background-color: red;
-    border: none;
-    color: white;
 }
