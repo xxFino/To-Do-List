@@ -13,11 +13,20 @@
 
 .form__input {
     padding: 5px;
+    border: 1px solid #ddd;
 }
 
 .form__button {
-    background-color: teal;
+    background-color: hsl(180, 100%, 25%);
     border: none;
     color: white;
     padding: 5px;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 35%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 40%);
 }

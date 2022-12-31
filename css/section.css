@@ -2,16 +2,11 @@
     margin-top: 20px;
     padding: 20px;
     width: 600px;
-    background-color: #ccc;
+    background-color: white; 
+    box-shadow: 0 0 5px #ddd;
 }
 
 .section__header {
     margin-bottom: 0;
     border-bottom: 1px solid #ddd;
-}
-
-.information {
-    font-style: italic;
-    font-size: 12px;
-    margin-top: 5px;
 }
