@@ -27,18 +27,20 @@
 
 .list__button--done {
     background-color: hsl(120, 100%, 30%);
+    transition: 1s;
 }
 
 .list__button--done:hover {
-    background-color: hsl(120, 100%, 40%);
+    background-color: hsl(120, 100%, 50%);
 }
 
 .list__button--done:active {
-    background-color: hsl(120, 100%, 45%);
+    background-color: hsl(120, 100%, 50%);
 }
 
 .list__button--remove {
-    background-color: hsl(0, 100%, 40%);
+    background-color: hsl(0, 100%, 35%);
+    transition: 1s;
 }
 
 .list__button--remove:hover {
