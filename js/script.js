@@ -11,11 +11,13 @@
     };
 
     const removeTask = (taskIndex) => {
-        tasks.splice(taskIndex, 1);
+        [
+            ...tasks.splice(taskIndex, 1),
+        ];
         render();
     };
 
-    const toogleTaskDone = (taskIndex) => {
+    const toogleTaskDone = (taskIndex) => {        
         tasks[taskIndex].done = !tasks[taskIndex].done
         render();
     };
